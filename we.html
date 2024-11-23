@@ -105,6 +105,66 @@
             padding: 10px;
         }
 
+        .we_footer_area {
+    background-color: #212529; /* Dark background */
+    color: #f8f9fa; /* Light text */
+    text-align: center; /* Center align text */
+    padding: 20px 15px; /* Add padding */
+    font-family: Arial, sans-serif; /* Clean font */
+    border-top: 3px solid #17a2b8; /* Add a nice border */
+}
+
+.we_footer_area h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #17a2b8; /* Accent color */
+}
+
+.we_footer_area h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    transition: color 0.3s ease;
+}
+
+.we_footer_area h3:hover {
+    color: #ffc107; /* Hover effect */
+}
+
+.we_footer_area h5 {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #ced4da; /* Muted text */
+}
+
+.we_footer_area p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #6c757d; /* Subtle copyright text */
+}
+
+.we_footer_area a {
+    text-decoration: none;
+    color: inherit; /* Inherit color */
+}
+
+.we_footer_area a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .we_footer_area {
+        font-size: 14px; /* Adjust font size for small screens */
+    }
+
+    .we_footer_area h2 {
+        font-size: 24px;
+    }
+
+    .we_footer_area h3 {
+        font-size: 18px;
+    }
+}
 
     </style>
 </head>
@@ -135,7 +195,7 @@
             <div class="card">
                 <img src="https://avatars.githubusercontent.com/u/188776246?v=4" alt="MD. ROHAN MONDAL">
                 <h3>MD. ROHAN MONDAL</h3>
-                <p>Department of Internet of Things and Robotics Engineering</p>
+                <p>Department of Internet of Things and Robotics Engineering(IRE)</p>
                 <p>Session: 2021-22</p>
                 <a href="https://www.facebook.com/mohammadrohan.rohan.7" target="_blank">Facebook Profile</a>
             </div>
@@ -143,7 +203,7 @@
             <div class="card">
                 <img src="https://avatars.githubusercontent.com/u/149859802?v=4" alt="name">
                 <h3>MD. Jawad Labib</h3>
-                <p>Educational Technology and Engineering</p>
+                <p>Department of Educational Technology and Engineering (EdTE)</p>
                 <p>Session: 2020-21</p>
                 <a href="https://facebook.com/mohammad.jawad247" target="_blank">Facebook Profile</a>
             </div>
@@ -159,12 +219,15 @@
         </section>
         
         <!-- footer start -->
-        <div class="row footer_area">
+        <div class="we_footer_area">
             <h2>Thank You</h2>
-            <a style="text-decoration: none; color: white;" href="https://www.facebook.com/EdTech.Engg"><h3>Developed By TechByte BDU</h3></a>
+            <a href="https://www.facebook.com/EdTech.Engg" style="text-decoration: none; color: white;">
+                <h3>Developed By TechByte BDU</h3>
+            </a>
             <h5>bdu.rony@gmail.com</h5>
             <p>Copyright © 2024 All Rights Reserved.</p>
         </div>
+        
     </div>
 </body>
 </html>
