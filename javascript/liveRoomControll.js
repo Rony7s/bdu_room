@@ -51,7 +51,7 @@ function getTimeSlot() {
     const currentDate = new Date();
     const hourx = currentDate.getHours();  
     if (hourx >= 8 && hourx < 18) {
-      return Math.max(0, hourx - 9); // 8am  = , 9am = 1 .... 9
+      return Math.max(0, hourx - 9)+1; // 8am  = , 9am = 1 .... 9
     } else {
       return 10;
     }
